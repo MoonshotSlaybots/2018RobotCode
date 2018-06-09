@@ -36,14 +36,14 @@ import autoStrats.PreloadedToSwitch;
 public class Robot extends TimedRobot {
 	
 	//constants
-	public static int position;									//Default start position (middle)
+	public static int position;										//Default start position (middle)
 	public static int autoDelay =0;
 	public static int gameDataTimeout = 10;							//if gamedata returns null, wait 100ms and retry this many times
 	static final double GEAR_RATIO = 10.71;							//to 1
 	static final double WHEEL_R= 0.0762; 			 				//Radius of wheels in Meters
 	static final float WHEEL_C= (float)(2*(Math.PI)*WHEEL_R);		//Circumference of wheels in meters
 	static final double BOT_DIAMETER= 0.594; 						//distance from middle left wheel to middle right wheel in meters.
-	String gameData = null;			//game data passed to the driver station from FMS (for 2018 the ownership of switch/scale)
+	String gameData = null;											//game data passed to the driver station from FMS (for 2018 the ownership of switch/scale)
 	
 
 	//speed controllers
@@ -224,7 +224,7 @@ public class Robot extends TimedRobot {
 					backWinch.set(0);   						//back winch idle		
 				}
 				
-		robotDrive.arcadeDrive(driveStick.getRawAxis(1)*.5, (driveStick.getRawAxis(2)*-1)*rotationTrim);		//main stick drive
+		robotDrive.arcadeDrive(driveStick.getRawAxis(1), (driveStick.getRawAxis(2)*-1)*rotationTrim);		//main stick drive
 		
 		System.out.print("left encoder: "+ leftEncoder.getDistance());
 		System.out.print("Right encoder: "+ rightEncoder.getDistance());
