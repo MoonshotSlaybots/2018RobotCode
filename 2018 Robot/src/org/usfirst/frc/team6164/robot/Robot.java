@@ -225,7 +225,7 @@ public class Robot extends TimedRobot {
 				}
 				
 		robotDrive.arcadeDrive(driveStick.getRawAxis(1), (driveStick.getRawAxis(2)*-1)*rotationTrim);		//main stick drive
-		
+		 
 		System.out.print("left encoder: "+ leftEncoder.getDistance());
 		System.out.print("Right encoder: "+ rightEncoder.getDistance());
 		
