@@ -1,5 +1,5 @@
 # 2018RobotCode
-Java code for 2018 year.
+Java code for 2018 year (Power Up)
 
 To have required libraries, must install eclipse plugin "Robot Java Development" by WPI
 
