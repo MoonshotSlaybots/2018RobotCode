@@ -19,26 +19,26 @@ https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599681-installing-eclips
 10. click ok on the window about unsigned content when it appears 
 11. restart eclipse for the plugin to take effect
 
+Build Path Errors
+------------------
 
 If you are still expericing build path errors try these steps courtesy of team #3504 (https://github.com/GirlsOfSteelRobotics/Docs/wiki/Programming-Environment-Set-Up)
-
-12. Fix build path errors
 
 The projects imported in the step above might all show build path errors. If you see this issue, it can be fixed by creating a temporary project based on a WPIlib template. The process of creating a new project will define a set of build variables needed by all robot projects. Once created, the temporary project can be removed.
 
 13. Create a temporary FRC Java project
-    a. From the File menu, choose New...
-    b. In the submenu, choose Project (NOT Java Project!)
-    c. Open WPILib Robot Java Development
-    d. Select Example Robot Java Project
-    e. Click Next >
-    f. The Select Example Project to Create wizard opens
-    g. Choose GearsBot, click Next >
-    h. Enter the Project Name "temp"
-    i. Click Finish
-    j. All (or at least most) of the errors should disappear after a minute
+    1. From the File menu, choose New...
+    2. In the submenu, choose Project (NOT Java Project!)
+    3. Open WPILib Robot Java Development
+    4. Select Example Robot Java Project
+    5. Click Next >
+    6. The Select Example Project to Create wizard opens
+    7. Choose GearsBot, click Next >
+    8. Enter the Project Name "temp"
+    9. Click Finish
+    10. All (or at least most) of the errors should disappear after a minute
 14. Now delete the "temp" project:
-    a. Right-click on "temp"
-    b. Select Delete from the pop-up menu
-    c. IMPORTANT: enable the "Delete project contents on disk" option to clean up the unneeded files
-    d. Click OK
+    1. Right-click on "temp"
+    2. Select Delete from the pop-up menu
+    3. IMPORTANT: enable the "Delete project contents on disk" option to clean up the unneeded files
+    4. Click OK
