@@ -19,6 +19,10 @@ https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599681-installing-eclips
 10. click ok on the window about unsigned content when it appears 
 11. restart eclipse for the plugin to take effect
 
+WPI Library Documentation
+-------------------------
+Documentation of the libraries used in frc (for java programming) can be found here: http://first.wpi.edu/FRC/roborio/release/docs/java/
+
 Build Path Errors
 ------------------
 
